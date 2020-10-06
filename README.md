@@ -24,7 +24,7 @@ Não se preocupe, a conta pede um cartão de crédito, mas a aplicação não fa
 
 ### Pre-requisitos
 
-Instale Python3, Pip3 e AWS CLI em seu ambiente.
+Instale Python3, Pip3, Node.Js, Yarn e AWS CLI em seu ambiente.
 
 ### Instalando
 
@@ -51,5 +51,20 @@ python main.py
 * [AWS Rekognition](https://docs.aws.amazon.com/rekognition/latest/dg/getting-started.html) - API's para reconhecimento de imagens
 
 ## Autores
+
+
+## Para rodar o front-end
+
+navegue até a pasta dee fronted
+
+```
+cd temtotem-frontend
+```
+
+rode a aplicação:
+
+```
+yarn start
+```
 
 * **Time 18**

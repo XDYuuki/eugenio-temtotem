@@ -7,20 +7,20 @@ Aplicação que, a partir de uma webcam, reconhece as emoções de uma pessoa fo
 **Para começar você precisa de uma conta AWS e criar um user no console da aws : [AWS Console](https://console.aws.amazon.com/)
 Não se preocupe, a conta pede um cartão de crédito, mas a aplicação não fará nenhuma cobrançã.**
 
-![](readme_assets/create_user.png)
+![](rekonigtion_server/readme_assets/create_user.png)
 
 **Assossie as seguintes permissões**
 
-![](readme_assets/permissions.png)
+![](rekonigtion_server/readme_assets/permissions.png)
 
 **Crie uma chave de acesso:**
 
-![](readme_assets/access_key.png)
+![](rekonigtion_server/readme_assets/access_key.png)
 
 **Salve como CSV e coloque este arquivo na pasta user_credentials do projeto com o nome new_user_credentials.csv: (user_credentials/new_user_credentials.csv)**
 
 
-![](readme_assets/access_key_csv.png)
+![](rekonigtion_server/readme_assets/access_key_csv.png)
 
 ### Pre-requisitos
 

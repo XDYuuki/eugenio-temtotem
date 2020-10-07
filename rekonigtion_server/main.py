@@ -70,17 +70,14 @@ def parse_response(img_analise):
     #print(data_to_send)
 
 def detect_faces(source_bytes):
-    # with open(
-    #         'user_credentials/new_user_credentials.csv', 'r'
-    # ) as input_csv:
-    #     next(input_csv)
-    #     reader = csv.reader(input_csv)
-    #     for line in reader:
-    #         access_key_id = line[2]
-    #         secret_access_key = line[3]
-
-    access_key_id = 'AKIA5EOQICHBCFCVXLXA'
-    secret_access_key = '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'
+     with open(
+             'user_credentials/new_user_credentials.csv', 'r'
+     ) as input_csv:
+         next(input_csv)
+         reader = csv.reader(input_csv)
+         for line in reader:
+             access_key_id = line[2]
+             secret_access_key = line[3]
 
     try:
         client = boto3.client('rekognition', 'us-east-1',
